@@ -1,0 +1,29 @@
+{
+  "name": "apollo",
+  "version": "1.0.0",
+  "description": "apollo server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "ajani eniola (ajax)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.1.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "graphql": "^0.10.5",
+    "graphql-tools": "^1.2.1",
+    "mongoose": "^4.11.7",
+    "restify": "^5.2.0"
+  }
+}
